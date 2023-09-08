@@ -1,0 +1,70 @@
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../../assests/5897732.jpg"), #000000;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.landing-content {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(76, 70, 70, 0.6);
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.gym-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.landing_para {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.explore_button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #5e5856;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore_button:hover {
+  background-color: #887e7a;
+}
+
+@media screen and (max-width: 655px) {
+  .explore_button {
+    padding: 7px 11px;
+    font-size: 12px;
+  }
+  .landing_para {
+    font-size: 12px;
+  }
+  .landing_heading {
+    font-size: 25px;
+  }
+  .gym-icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+}

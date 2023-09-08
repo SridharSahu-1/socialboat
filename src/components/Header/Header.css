@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600&family=Bai+Jamjuree&family=Montserrat:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logoText {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  background-color: #4d4d4d;
+  padding: 15px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbarLi {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logoimg {
+  height: 25px;
+}
+
+.searchbar {
+  background-color: #313131;
+  height: 41px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 310px;
+  outline: none;
+  border: none;
+  color: white;
+  transition: background 200ms ease-in;
+}
+
+.searchbar:focus {
+  background-color: #3c3939;
+}
+
+.searchbar::placeholder {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .logoText {
+    display: none;
+  }
+  .searchbar {
+    width: 100%;
+  }
+}
